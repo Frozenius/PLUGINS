@@ -4,3 +4,7 @@ main: de.frozenius.saltyeconomy.Main
 api-version: 1.15
 authors: [Frozenius]
 description: Salty Own Economy Plugin by Frozenius
+
+commands:
+  money:
+    description: Zeigt dir einen aktuellen Kontostand an
