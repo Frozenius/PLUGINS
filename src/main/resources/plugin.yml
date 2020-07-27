@@ -6,5 +6,15 @@ authors: [Frozenius]
 description: Salty Own Economy Plugin by Frozenius
 
 commands:
+  bp:
+    description: Gibt dir einen Rucksack
   money:
-    description: Zeigt dir einen aktuellen Kontostand an
+    description: Zeigt deinen aktuellen Kontostand
+  pay:
+    description: Überweist Geld
+  setmoney:
+    description: Setzt deinen Kontostand
+  removemoney:
+    description: Senkt deinen Kontostand
+  addmoney:
+    description: Fügt deinem Konto Geld hinzu

@@ -1,5 +1,6 @@
 package de.frozenius.saltyeconomy.listeners;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -10,6 +11,6 @@ public class QuitListener implements Listener {
     @EventHandler
     public void onQuit(PlayerQuitEvent event){
         Player player = event.getPlayer();
-        event.setQuitMessage("Player Quit");
+        event.setQuitMessage(ChatColor.RED + "- " + ChatColor.YELLOW + player.getDisplayName());
     }
 }
